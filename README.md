@@ -31,6 +31,11 @@ Copy the .env.example file to .env and update the environment variables as neede
    php artisan key:generate
    ```
 
+5. **Store sessions on the DB**
+    ```
+    php artisan session:table
+    ```
+
 5. **Run migrations**
 
     ```
